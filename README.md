@@ -48,3 +48,8 @@ Considérons un ensemble d'activités avec pour chaque activité un début et un
 ```
 S=((‘A’,1,4),(‘B’,0,6),(‘C’,3,5),(‘D’,12,13),(‘E’,8,11),(‘F’,8,12),(‘G’,2,13),(‘H’,6,10),(‘I’,5,9),(‘J’,3,8),(‘K’,5,7),(‘L’13,16),(‘M’,15,17),(‘N’,16,19))
 ```
+
+## Tri à bulles
+
+Le tri à bulle consiste à parcourir le tableau, par exemple de gauche à droite, en comparant les éléments côte à côte et en les permutant s'ils ne sont pas dans le bon ordre. Au cours d'une passe du tableau, les plus grands éléments remontent de proche en proche vers la droite comme des bulles vers la surface.
+On s'arrête dès que l'on détecte que le tableau est trié : si aucune permutation n'a été faite au cours d'une passe.
