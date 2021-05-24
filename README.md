@@ -1,5 +1,6 @@
 # Dichotomie
-Algorithmes dichotomiques
+Algorithmes dichotomiques.
+Si jamais vous avez des améliorations à proposer pour modifier ces codes n'hésitez pas à faire une **pull request** !
 
 **Codes réalisés pour m'entrainer en Python**
 
