@@ -4,7 +4,15 @@ Algorithmes dichotomiques
 **Codes réalisés pour m'entrainer en Python**
 
 ## Recherche Dichotomiques
-Ce code d'exemple permet de chercher un nombre dans une liste mais il peut être modifié pour rechercher autre chose
+
+**Le principe est le suivant :**
+On recherche une valeur x dans une liste L triée (dans l'ordre croissant par exemple).
+On vérifie l'élément y du milieu de liste :
+```
+- S'il a pour valeur x, c'est terminé (on retourne son rang).
+- Si y < x, alors x est maintenant à chercher dans la partie de liste se trouvant à droite de l'élément y (c'est à dire dans les éléments d'indice plus grand que l'indice de y).
+- Si y > x, alors x est maintenant à chercher dans la partie de liste se trouvant à gauche de l'élément y.
+```
 
 ## Activité Indiana Jones
 
