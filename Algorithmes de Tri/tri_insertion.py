@@ -4,6 +4,6 @@ for i in range(len(L)-1):
     temp=L[i+1]
     while L[i]>temp and i >= 0:
         L[i+1]=L[i]
-        i=i-1
+        i-=1
     L[i+1]=temp
 print(L)
